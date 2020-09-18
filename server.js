@@ -3,10 +3,10 @@ const bodyParser = require('body-parser');
 const bcrypt = require('bcrypt-nodejs');
 const cors = require('cors');
 const knex = require('knex');
-const register = require('./smartbrain-api/Controllers/register');
-const signin = require('./smartbrain-api/Controllers/signin');
-const profile = require('./smartbrain-api/Controllers/profile');
-const image = require('./smartbrain-api/Controllers/image');
+const register = require('./Controllers/register');
+const signin = require('./Controllers/signin');
+const profile = require('./Controllers/profile');
+const image = require('./Controllers/image');
 
 const db = knex({
 
