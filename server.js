@@ -53,7 +53,8 @@ app.use(cors());
 // come back to the below code! We're removing the old database code
 
 app.get('/', (req, res) => {
-    res.send(db.users)
+    // res.send(db.users)
+    res.send(`it's working`)
 })
 
 // app.post('/signin', (req, res) => {
